@@ -1,0 +1,37 @@
+{{ define "main" }}
+<main class="bg-gray-100 py-12 px-4 md:px-24 min-h-screen">
+  <header class="p-4">
+    <h1 class="text-center text-3xl font-bold">Hugo + tailwindcss</h1>
+  </header>
+  <section class="flex flex-col justify-center gap-4 py-4 text-center">
+    <article class="p-2 text-xl">
+      text-xl
+    </article>
+    <article class="p-2 text-2xl font-light">
+      text-2xl + font-light
+    </article>
+    <article class="p-2 text-4xl + font-bold">
+      text-4xl + font-bold
+    </article>
+  </section>
+  <section class="flex flex-row justify-center gap-4 py-4">
+    <article class="p-8 rounded shadow bg-white">
+      rounded
+    </article>
+    <article class="p-8 rounded-md shadow-md bg-white">
+      rounded-md + shadow-md
+    </article>
+    <article class="p-8 rounded-lg shadow-lg bg-white">
+      rounded-lg + shadow-lg
+    </article>
+  </section>
+  <section class="flex flex-row justify-center gap-4 py-4">
+    <article class="p-8 rounded-md bg-blue-500 border-t-4 border-black">
+      bg-blue-500 + border-t-4 + border-black
+    </article>
+    <article class="p-8 rounded-md bg-red-500 border-b-4 border-red-800 text-white">
+      bg-red-500 + border-b-4 + border-red-800 + text-white
+    </article>
+  </section>
+</main>
+{{ end }}
