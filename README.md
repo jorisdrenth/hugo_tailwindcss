@@ -16,5 +16,8 @@ Since one of my colleagues is literally dreaming about tailwindcss, I've created
 Now visit [http://localhost:1313](http://localhost:1313)
 Edit code in hugo_tailwindcss/layouts/index.html and see your changes live reload in your browser.
 
+## Related links
+[tailwindcss documentation](https://tailwindcss.com/docs)
+
 ## Thanks to
 [Wim de Blauwe](https://www.wimdeblauwe.com/blog/2021/01/18/using-hugo-with-tailwind-css-2/) for his blog post about using Hugo with tailwindcss.
